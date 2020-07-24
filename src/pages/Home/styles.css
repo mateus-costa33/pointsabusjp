@@ -1,0 +1,52 @@
+.top .links li{
+    list-style-type: none;
+    display: inline;
+}
+.links{
+    text-align: center;
+    margin-top: -40px;
+}
+a, a:hover{
+    text-decoration: none;
+    color:black;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+}
+#link_1,#link_2, #link_3{
+    margin-right: 20px;
+    font-family: 'Roboto', sans-serif;
+}
+.card-img{
+   opacity: .3;
+}
+.maph{
+    width:50%;
+    height: 50%;
+}
+.card-text{
+    color: white;
+}
+.navbar-center{
+    position: absolute;
+    text-align: center;
+}
+.nav-link{
+    font-family: 'Roboto', sans-serif;
+
+}
+.mask{
+    margin-top:100px;
+}
+.title{
+    margin-bottom: 20px;
+}
+.title-locais{
+    margin: 20px;
+    margin-top: 80px;
+}
+
+
+
+
