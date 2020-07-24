@@ -24,6 +24,9 @@ a, a:hover{
 .card-text{
     color: white;
 }
+.linkmaph{
+    margin-top: -10px;
+}
 .navbar-center{
     position: absolute;
     text-align: center;
