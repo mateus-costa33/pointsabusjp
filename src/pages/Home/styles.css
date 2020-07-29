@@ -14,6 +14,15 @@ a, a:hover{
     width: 50px;
     height: 50px;
 }
+.logo-nova{
+    width:200px;
+    height: 200px;
+}
+.icon{
+    width:30px;
+    height: 30px;
+}
+
 #link_1,#link_2, #link_3{
     margin-right: 20px;
     font-family: 'Roboto', sans-serif;
