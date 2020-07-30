@@ -34,7 +34,7 @@ a, a:hover{
     color: white;
 }
 .linkmaph{
-    margin-top: -10px;
+    font-weight: bold;
 }
 .navbar-center{
     position: absolute;
