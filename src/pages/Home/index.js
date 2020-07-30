@@ -3,6 +3,7 @@ import './styles.css';
 import Header from './header';
 import Container from './container';
 import Locais from './locais';
+import Footer from './footer';
 
 const Home = () => {
     return(
@@ -10,6 +11,7 @@ const Home = () => {
             <Header />
             <Container />
             <Locais />
+            <Footer />
         </div>
 
                 

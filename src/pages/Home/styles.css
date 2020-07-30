@@ -53,6 +53,11 @@ a, a:hover{
 .title-locais{
     margin: 20px;
     margin-top: 80px;
+    margin-bottom: 45px;
+}
+
+#footer-title{
+    text-align: center;
 }
 
 
