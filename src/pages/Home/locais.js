@@ -1,6 +1,8 @@
 import React from 'react';
 import './styles.css';
 
+const photo = "https://roteiro-geoturistico-jp--ssantinho.repl.co/media/aereo.jpg";
+
 
 const Locais = () => {
     return(
@@ -8,7 +10,7 @@ const Locais = () => {
         <h4 className="title-locais">Nossos Pontos!</h4>
         <div className="container">
             <div className="card bg-dark maph text-white">
-                <img className="card-img" src="https://roteiro-geoturistico-jp--ssantinho.repl.co/media/aereo.jpg" alt="Card image" />
+                <img className="card-img" alt="Card image" src={photo} />
                 <div className="card-img-overlay">
                     <h5 className="card-title">Igreja São Francisco</h5>
                     <p className="card-text">Os ônibus adequados para chegar neste local: todos que vão para o Parque Solon de Lucena, a Lagoa. Quando chegar lá utilize o Google Maps para chegar no local mais rápido.</p>

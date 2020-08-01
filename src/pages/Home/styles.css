@@ -21,6 +21,7 @@ a, a:hover{
 .icon{
     width:30px;
     height: 30px;
+    color: #fff;
 }
 
 #link_1,#link_2, #link_3{
@@ -34,7 +35,7 @@ a, a:hover{
     color: white;
 }
 .linkmaph{
-    font-weight: bold;
+    font-weight: bold;  
 }
 .navbar-center{
     position: absolute;
@@ -43,6 +44,12 @@ a, a:hover{
 .nav-link{
     font-family: 'Roboto', sans-serif;
 
+}
+.navbar{ background-color: #007BFF; }
+ .nav-link{ color: black; font-weight: 500; } .btn{ border-radius: 0.3rem; font-weight: 500; }
+
+.maph{
+    padding-bottom: 20px;
 }
 .mask{
     margin-top:100px;
@@ -58,6 +65,51 @@ a, a:hover{
 
 #footer-title{
     text-align: center;
+}
+.footer{
+    padding-bottom: 10px;
+
+}
+.navbar .collapse .navbar-nav .nav-item a{
+    color: black;
+}
+.navbar .navbar-brand .icon{
+    color: black;
+}
+
+
+/*
+    Dark mode in production!!!
+
+*/
+
+.dark-mode{
+    background-color: #1a1919;
+    color:#fff;
+}
+.dark-mode nav{
+    background-color: #121010;
+}
+.dark-mode .navbar-light .navbar-nav .active>.nav-link{
+    color: white;
+
+}
+.dark-mode .navbar-light .navbar-toggler{
+    color: white;
+    border-color: white;
+}
+.dark-mode .footer span{
+    color:#fff;
+    background-color: #1a1919;
+}
+.dark-mode .footer .linha{
+    color:#fff;
+}
+.dark-mode .navbar .collapse .navbar-nav .nav-item a{
+    color: #fff;
+}
+.dark-mode .navbar .navbar-brand .icon{
+    color: #fff;
 }
 
 

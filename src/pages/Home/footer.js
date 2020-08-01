@@ -3,9 +3,9 @@ import './styles.css';
 
 const Footer = () => {
     return(
-        <footer>
-            <hr />
-            <p id="footer-title">©️Copyright: Mateus Costa dos Santos - 2020</p>
+        <footer className="footer text-center">
+            <hr className="linha" />
+            <span id="footer-title">©Copyright: Mateus Costa dos Santos - 2020</span>
         </footer>
     );
 
